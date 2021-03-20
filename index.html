@@ -21,7 +21,7 @@
 		/>
 	</head>
 	<body>
-		<nav class="bg-gray-200">
+		<nav class="bg-gray-200 sticky top-0">
 			<div class="px-8 mx-auto">
 				<div class="flex justify-between">
 					<div class="flex">
@@ -41,14 +41,16 @@
 										d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
 									/>
 								</svg>
-								<span>Martin Flischman</span>
+								<span class="font-bold">Martin Flischman</span>
 							</a>
 						</div>
 					</div>
-					<div class="flex items-center space-x-6 text-gray-700">
-						<div>About</div>
-						<div>Projects</div>
-						<div>Contact</div>
+					<div
+						class="flex items-center space-x-6 text-gray-700 hidden md:flex cursor-pointer"
+					>
+						<div class="hover:text-gray-900">About</div>
+						<div class="hover:text-gray-900">Projects</div>
+						<div class="hover:text-gray-900">Contact</div>
 					</div>
 				</div>
 			</div>

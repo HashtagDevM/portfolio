@@ -21,14 +21,14 @@
 		/>
 	</head>
 	<body>
-		<nav class="bg-gray-200 sticky top-0">
+		<nav class="bg-red-500 sticky top-0 font-sans">
 			<div class="px-8 mx-auto">
 				<div class="flex justify-between">
 					<div class="flex">
 						<div>
-							<a href="#" class="flex items-center py-3 px-2 text-gray-700">
+							<a href="#" class="flex items-center py-3 px-2">
 								<svg
-									class="h-6 w-6 mr-2 text-blue-500"
+									class="h-6 w-6 mr-2 text-white"
 									xmlns="http://www.w3.org/2000/svg"
 									fill="none"
 									viewBox="0 0 24 24"
@@ -41,22 +41,21 @@
 										d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
 									/>
 								</svg>
-								<span class="font-bold">Martin Flischman</span>
 							</a>
 						</div>
 					</div>
 					<div
-						class="flex items-center space-x-6 text-gray-700 hidden md:flex cursor-pointer"
+						class="flex items-center space-x-6 text-white hidden md:flex cursor-pointer"
 					>
-						<div class="hover:text-gray-900">About</div>
-						<div class="hover:text-gray-900">Projects</div>
-						<div class="hover:text-gray-900">Contact</div>
+						<div class="hover:text-gray-800">About</div>
+						<div class="hover:text-gray-800">Projects</div>
+						<div class="hover:text-gray-800">Contact</div>
 					</div>
 
 					<div class="md:hidden flex items-center">
 						<button class="mobile-menu-button">
 							<svg
-								class="w-6 h-6"
+								class="w-6 h-6 text-white"
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
 								viewBox="0 0 24 24"
@@ -74,43 +73,65 @@
 				</div>
 			</div>
 
-			<div class="mobile-menu hidden">
-				<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300">About</a>
-				<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300"
+			<div class="mobile-menu hidden text-white">
+				<a
+					href="#"
+					class="block py-2 px-4 text-sm hover:bg-white hover:text-gray-800"
+					>About</a
+				>
+				<a
+					href="#"
+					class="block py-2 px-4 text-sm hover:bg-white hover:text-gray-800"
 					>Projects</a
 				>
-				<a href="#" class="block py-2 px-4 text-sm hover:bg-gray-300"
+				<a
+					href="#"
+					class="block py-2 px-4 text-sm hover:bg-white hover:text-gray-800"
 					>Contact</a
 				>
 			</div>
 		</nav>
 
-		<main>
-			<div>
-				<img src="img/selfie.png" alt="Profile photo of me" class="h-56 w-56" />
-
-				<h1>Martin Flischman</h1>
-				<h3>Web Developer</h3>
-				<p>
-					I have a passion for coding and design. I'm constantly thinking about
-					my next project and how I can improve on projects already completed. I
-					often find myself losing track of time after starting work on a
-					project. If you want colaborate on a project, want to give me feedback
-					on any of my projects or just say "Hi", I'd love to hear from you.
-				</p>
-				<p>
-					Apart from being a web developer, I love being outdoors. Favourites
-					being hiking, park runs, kayaking and going to the beach. When
-					indoors, I follow a number of sci-fi and fantasy genre movies and
-					series. I am also an aspiring home cook and baker. I spend a large
-					amount of my free time exploring the latest technology advancements on
-					YouTube and Twitter. I'm not much of a gamer, but I do play retro
-					Pokemon games every so often.
-				</p>
+		<header
+			class="bg-red-500 min-h-screen text-gray-50 font-sans md:flex justify-between lg:py-32 lg:px-10"
+		>
+			<div class="md:w-1/2 mb-10 md:mb-0 text-center py-10">
+				<p class="mb-6 text-lg">Hi, my name is</p>
+				<h1 class="text-4xl md:text-5xl lg:text-7xl text-white mb-6">
+					Martin Flischman.
+				</h1>
+				<h3 class="text-2xl lg:text-4xl text-gray-800">
+					I build things for the web.
+				</h3>
 			</div>
 
-			<div></div>
-		</main>
+			<div class="px-16 md:w-1/2 lg:px-32">
+				<img
+					src="img/selfie.png"
+					alt="Profile photo of me"
+					class="border-4 border-white w-56 h-56 lg:w-80 lg:h-80 rounded-full"
+				/>
+			</div>
+		</header>
+
+		<!--
+		<div class="font-sans text-gray-900">
+			<p>
+				I have a passion for coding and design. I'm constantly thinking about my
+				next project and how I can improve on projects already completed. I
+				often find myself losing track of time after starting work on a project.
+			</p>
+			<br />
+			<p>
+				Apart from being a web developer, I love being outdoors. Favourites
+				being hiking, kayaking and going to the beach. When indoors,
+				I follow a number of sci-fi and fantasy genre movies and series. In my
+				free time I explore the latest technology advancements on YouTube and
+				Twitter. I'm not much of a gamer, but I do play retro Pokemon games
+				every so often.
+			</p>
+		</div>
+		-->
 
 		<script src="script.js"></script>
 	</body>

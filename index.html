@@ -4,9 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="keywords"
+			content="Web Developer, Front-End, HTML, CSS, JavaScript"
+		/>
+		<meta name="author" content="Martin Flischman" />
+		<meta name="description" content="Front-End developer portfolio website." />
 		<title>Martin Flischman | Front-End Developer</title>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
 	</head>
 	<body>
 		<nav>
@@ -29,22 +41,154 @@
 			<img class="selfie" src="images/selfie.jpeg" alt="A photo of myself" />
 		</header>
 
-		<!--
-					<section id="about">
-			<p>
-				I have a passion for coding. I'm constantly thinking about my next
-				project and how I can improve on projects already completed. I often
-				find myself losing track of time after starting work on a new project.
-			</p>
-			<p>
-				Apart from being a web developer, I love being in nature. Favourites
-				being hiking, kayaking and going to the beach. When indoors, I like
-				watching fantasy genre movies and series. I am a vegetarian, mostly for
-				the health benefits. I spend a lot of my free time exploring the latest
-				technology advancements on YouTube and Twitter. I'm not much of a gamer,
-				but I do play retro Pokemon games every so often.
-			</p>
+		<section id="about">
+			<div class="info">
+				<h2>about.</h2>
+				<div class="me">
+					<h3>About me</h3>
+					<p>
+						I'm a junior <span>Front-End developer</span>, living in Cape Town,
+						South Africa. I love creating <span>responsive websites</span> while
+						focusing on a <span>clean and minimalist aesthetic</span>. Currently
+						I'm focusing on building projects to improve my skills.
+					</p>
+				</div>
+				<div class="skills">
+					<h3>My skills</h3>
+					<p>
+						My current skills include <span>HTML5</span>, <span>CSS3</span> and
+						<span>JavaScript</span>. I have also learned Bootstrap and
+						Wordpress. I aim to expand my knowledge and learn frameworks such as
+						React and Vue.js. I have also done a couple of other courses,
+						including a <span>Python</span> Mastery - beginner course.
+					</p>
+					<p>Tools that I use, but not limited to, include:</p>
+					<ul>
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>Firefox DevTools</li>
+						<li>Slack</li>
+						<li>Visual Studio Code</li>
+					</ul>
+				</div>
+			</div>
 		</section>
--->
+
+		<section id="portfolio">
+			<h2>portfolio.</h2>
+			<div class="projects">
+				<div class="card">
+					<img
+						src="images/out-in-nature.png"
+						alt="An image of a project I did"
+					/>
+					<h3>Out in Nature</h3>
+					<p>A landing page for a social network, aimed at hikers.</p>
+					<form
+						action="https://github.com/MartinFlischman/out-in-nature"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+					<form
+						action="https://martinflischman.github.io/out-in-nature/"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/google-clone.png"
+						alt="An image of a project I did"
+					/>
+					<h3>Google</h3>
+					<p>A clone of the Google.com website.</p>
+					<form
+						action="https://github.com/MartinFlischman/google-homepage"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+					<form
+						action="https://martinflischman.github.io/google-homepage/"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+				</div>
+
+				<div class="card">
+					<img
+						src="images/passenger-counter.png"
+						alt="An image of a project I did"
+					/>
+					<h3>Passenger Counter</h3>
+					<p>An app to count passengers that enter a train station.</p>
+					<form
+						action="https://github.com/MartinFlischman/passenger-counter-app"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+					<form
+						action="https://martinflischman.github.io/passenger-counter-app/"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+				</div>
+
+				<div class="card">
+					<img src="images/todo-list.png" alt="An image of a project I did" />
+					<h3>Todo List</h3>
+					<p>A todo list app to add/remove items and mark completed items.</p>
+					<form
+						action="https://github.com/MartinFlischman/todo-list"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+					<form
+						action="https://martinflischman.github.io/todo-list/"
+						target="_blank"
+					>
+						<button type="submit">Source Code</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="buttons">
+				<h2>contact.</h2>
+				<a
+					class="contactBtn"
+					href="mailto:mflischman@icloud.com?subject=Hey Martin!"
+					><i class="far fa-paper-plane"></i
+				></a>
+				<a class="contactBtn" href="https://github.com/MartinFlischman"
+					><i class="fab fa-github"></i
+				></a>
+				<a
+					class="contactBtn"
+					href="https://www.linkedin.com/in/martinflischman/"
+					><i class="fab fa-linkedin"></i
+				></a>
+				<a class="contactBtn" href="https://twitter.com/MartinFlischman"
+					><i class="fab fa-twitter"></i
+				></a>
+			</div>
+		</section>
+
+		<footer>
+			<a href="#"
+				><img
+					src="images/up.png"
+					alt="An arrow to navigate to the top of the page"
+			/></a>
+			<p>&copy; 2021 Martin Flischman</p>
+		</footer>
 	</body>
 </html>

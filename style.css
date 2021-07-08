@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
 
 :root {
-	--light: #9d9d9d;
-	--medium: #7a7a7a;
-	--dark: #333;
+	--light: #86868b;
+	--medium: #333;
+	--dark: #1d1d1f;
 	--accent1: #e5b748;
 	--accent2: #7ec2ba;
 	--accent3: #d96b6a;
@@ -27,8 +27,8 @@ nav {
 	align-items: center;
 	width: clamp(3.75rem, 100%, 150rem);
 	padding: 0 5%;
-	height: 8rem;
-	background: #111;
+	height: 6rem;
+	background: #141414;
 }
 
 .logo {
@@ -47,18 +47,19 @@ li {
 
 li a {
 	color: #fff;
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 	text-decoration: none;
 	cursor: pointer;
+	transition: 0.2s all;
 }
 
 li a.active {
-	color: var(--medium);
+	color: var(--light);
 }
 
 li a:hover {
-	color: var(--medium);
+	color: var(--light);
 }
 
 header {

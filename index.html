@@ -25,36 +25,36 @@
 			<img class="logo" src="images/logo.png" alt="A logo image" />
 			<ul>
 				<li><a href="#" class="active">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
 
 		<header id="home">
 			<div class="hero">
-				<h3>hi, my name is</h3>
+				<h3>Hi, my name is</h3>
 				<h1>Martin Flischman.</h1>
 				<h2>I build things for the web.</h2>
 			</div>
-
-			<img class="selfie" src="images/selfie.jpeg" alt="A photo of myself" />
+			<div class="hero">
+				<img class="selfie" src="images/selfie.jpeg" alt="A photo of myself" />
+			</div>
 		</header>
 
 		<section id="about">
+			<h2 class="mainAbout">about.</h2>
+			<div class="me">
+				<p>
+					I'm a junior <span>Front-End developer</span>, living in Cape Town,
+					South Africa. I love creating <span>responsive websites</span> while
+					focusing on a <span>clean and minimalist aesthetic</span>. Currently
+					I'm focusing on building projects to improve my skills.
+				</p>
+			</div>
 			<div class="info">
-				<h2>about.</h2>
-				<div class="me">
-					<h3>About me</h3>
-					<p>
-						I'm a junior <span>Front-End developer</span>, living in Cape Town,
-						South Africa. I love creating <span>responsive websites</span> while
-						focusing on a <span>clean and minimalist aesthetic</span>. Currently
-						I'm focusing on building projects to improve my skills.
-					</p>
-				</div>
 				<div class="skills">
-					<h3>My skills</h3>
+					<h3>Skills</h3>
 					<p>
 						My current skills include <span>HTML5</span>, <span>CSS3</span> and
 						<span>JavaScript</span>. I have also learned Bootstrap and
@@ -62,7 +62,10 @@
 						React and Vue.js. I have also done a couple of other courses,
 						including a <span>Python</span> Mastery - beginner course.
 					</p>
-					<p>Tools that I use, but not limited to, include:</p>
+				</div>
+				<div class="skills">
+					<h3>Tools</h3>
+					<p>The tools that I use, but not limited to, include:</p>
 					<ul>
 						<li>Git</li>
 						<li>GitHub</li>
@@ -73,12 +76,13 @@
 				</div>
 			</div>
 		</section>
-
+		<!--
 		<section id="portfolio">
 			<h2>portfolio.</h2>
 			<div class="projects">
 				<div class="card">
 					<img
+						class="thumbnail"
 						src="images/out-in-nature.png"
 						alt="An image of a project I did"
 					/>
@@ -94,12 +98,13 @@
 						action="https://martinflischman.github.io/out-in-nature/"
 						target="_blank"
 					>
-						<button type="submit">Source Code</button>
+						<button type="submit">View Page</button>
 					</form>
 				</div>
 
 				<div class="card">
 					<img
+						class="thumbnail"
 						src="images/google-clone.png"
 						alt="An image of a project I did"
 					/>
@@ -115,12 +120,13 @@
 						action="https://martinflischman.github.io/google-homepage/"
 						target="_blank"
 					>
-						<button type="submit">Source Code</button>
+						<button type="submit">View Page</button>
 					</form>
 				</div>
 
 				<div class="card">
 					<img
+						class="thumbnail"
 						src="images/passenger-counter.png"
 						alt="An image of a project I did"
 					/>
@@ -136,12 +142,16 @@
 						action="https://martinflischman.github.io/passenger-counter-app/"
 						target="_blank"
 					>
-						<button type="submit">Source Code</button>
+						<button type="submit">View Page</button>
 					</form>
 				</div>
 
 				<div class="card">
-					<img src="images/todo-list.png" alt="An image of a project I did" />
+					<img
+						class="thumbnail"
+						src="images/todo-list.png"
+						alt="An image of a project I did"
+					/>
 					<h3>Todo List</h3>
 					<p>A todo list app to add/remove items and mark completed items.</p>
 					<form
@@ -154,7 +164,7 @@
 						action="https://martinflischman.github.io/todo-list/"
 						target="_blank"
 					>
-						<button type="submit">Source Code</button>
+						<button type="submit">View Page</button>
 					</form>
 				</div>
 			</div>
@@ -190,5 +200,6 @@
 			/></a>
 			<p>&copy; 2021 Martin Flischman</p>
 		</footer>
+-->
 	</body>
 </html>

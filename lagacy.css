@@ -26,7 +26,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	padding: 0 5%;
+	padding: 0 40px;
 	height: ;
 	background: #141414;
 	position: fixed;
@@ -66,7 +66,7 @@ li a:hover {
 
 /* HERO SECTION */
 
-header {
+/* header {
 	background: #fff;
 	padding: 4rem;
 	display: grid;
@@ -107,13 +107,13 @@ header {
 .selfie {
 	width: 100%;
 	height: auto;
-	border-radius: 3rem;
+	border-radius: 50%;
 	display: block;
-}
+} */
 
 /* ABOUT */
 
-#about {
+/* #about {
 	margin: 14.25rem 4rem;
 }
 
@@ -192,4 +192,4 @@ header {
 	height: auto;
 	border-radius: 3rem;
 	display: block;
-}
+} */

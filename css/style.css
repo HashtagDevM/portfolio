@@ -66,16 +66,6 @@ h6 {
 	isolation: isolate;
 }
 
-.logo {
-	color: var(--clr-accent1);
-}
-
-.logo:hover,
-.page-anchor:hover {
-	color: var(--clr-accent2);
-}
-
 .nav-link {
-	color: var(--clr-white);
+	text-transform: lowercase;
 }
-

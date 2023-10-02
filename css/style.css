@@ -370,7 +370,45 @@ header {
 }
 
 /* Contact Section */
-.email-link,
-.contact-item--name {
-	color: var(--clr-light);
+.contact-me {
+	font-size: var(--fs-h3);
+	text-align: center;
+}
+
+.contact-me > a {
+	text-decoration: none;
+}
+
+.email-link {
+	color: var(--clr-accent1);
+	font-weight: var(--fw-bold);
+}
+
+.email-link:hover {
+	text-decoration: underline;
+}
+
+.email-link:hover,
+.contact-item--link:hover {
+	opacity: .7;
+}
+
+.contact-list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 1.5em 0 0;
+	padding: 0;
+}
+
+.contact-item,
+.contact-item--link {
+	margin: 0 .5em;
+}
+
+/* Footer */
+footer {
+	background-color: var(--clr-accent2);
+	text-align: center;
+	padding: .75rem 0;
 }

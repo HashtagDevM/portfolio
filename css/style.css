@@ -412,3 +412,19 @@ footer {
 	text-align: center;
 	padding: .75rem 0;
 }
+
+/* Individual Portfolio Item Styles */
+.portfolio-item-individual {
+	padding: 0 2em 2em;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.portfolio-item-individual > p {
+	max-width: 600px;
+	margin: 0 auto 0;
+}
+
+.portfolio-item-individual > img {
+	margin: 2rem auto 0;
+}

@@ -293,14 +293,33 @@ header {
 .my-work > .section-subtitle,
 .section-subtitle--contact {
 	color: var(--clr-accent2);
+	margin: 0 0 2em;
+}
+
+.portfolio {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2em;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .portfolio-item {
-
+	background-color: var(--clr-dark);
+	border-radius: .5rem;
+	overflow: hidden;
 }
 
-.portfolio-item > img {
-	max-width: 350px;
+.portfolio-img {
+	transition:
+		transform 750ms cubic-bezier(.5, 0, .5, 1),
+		opacity 250ms linear;
+}
+
+.portfolio-img:hover,
+.portfolio-item:focus .portfolio-img {
+	transform: scale(1.2);
+		opacity: .75;
 }
 
 /* About Section */

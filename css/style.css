@@ -64,9 +64,14 @@ section {
 img {
 	display: block;
 	max-width: 100%;
+	border-radius: .5rem;
+}
+
+.intro-img,
+.portfolio-img,
+.about-me--img {
 	width: auto;
 	height: auto;
-	border-radius: .5rem;
 }
 
 strong {

@@ -67,12 +67,6 @@ img {
 	border-radius: .5rem;
 }
 
-.intro-img,
-.portfolio-img,
-.about-me--img {
-	width: 100%;
-}
-
 strong {
 	font-weight: var(--fw-bold);
 }

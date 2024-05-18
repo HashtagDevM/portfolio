@@ -308,6 +308,14 @@ header {
     }
 }
 
+@media (min-width: 768px) {
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1em;
+    }
+}
+
 .portfolio-img {
     width: 100%;
     height: 200px;

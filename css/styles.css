@@ -48,6 +48,15 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.intro {
+    padding: 7em 2em;
+}
+
+.my-work,
+.about-me {
+    padding: 5em 2em 7em;
+}
+
 .intro,
 .about-me {
     max-width: 1000px;
@@ -399,6 +408,14 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+
+    .section-subheading {
+        font-weight: var(--fw-bold);
+    }
+
+    .about-me--body ul {
+        list-style: none;
     }
 }
 
